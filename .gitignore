@@ -1,0 +1,11 @@
+# СЕКРЕТНЫЕ ФАЙЛЫ (Остаются только у тебя)
+bot.py
+god_mode.py
+database.db
+*.pyc
+__pycache__/
+
+# ПАПКИ С ДАННЫМИ
+backups/
+exports/
+packs/
