@@ -616,7 +616,7 @@
 
             <label class="anon-wrapper">
                 <input type="checkbox" class="anon-checkbox" id="anon-check-vip">
-                <span class="anon-text">🛡 Включить полную анонимность (+44₽)</span>
+                <span class="anon-text">🛡 Включить полную анонимность (+49₽)</span>
             </label>
 
             <button class="vip-buy-btn" onclick="processVipPayment()">
@@ -650,7 +650,7 @@
         <div class="container" id="cards-container"></div>
         <div class="vip-floating-btn" onclick="buyVip()">
             <div class="vip-icon">💎</div>
-            <div class="vip-text">VIP CLUB / 449₽</div>
+            <div class="vip-text">VIP CLUB / 499₽</div>
         </div>
     </div>
 
@@ -687,23 +687,23 @@
                         <div class="gift-card" onclick="sendGift('champagne', 99)">
                             <span class="gift-icon">🥂</span>
                             <span class="gift-name">Игристое</span>
-                            <span class="gift-price">89₽</span>
+                            <span class="gift-price">99₽</span>
                         </div>
                         <div class="gift-card" onclick="sendGift('rose', 299)">
                             <span class="gift-icon">🌹</span>
                             <span class="gift-name">Букет</span>
-                            <span class="gift-price">269₽</span>
+                            <span class="gift-price">299₽</span>
                         </div>
                         <div class="gift-card" onclick="sendGift('diamond', 699)">
                             <span class="gift-icon">💎</span>
                             <span class="gift-name">Бриллиант</span>
-                            <span class="gift-price">629₽</span>
+                            <span class="gift-price">699₽</span>
                         </div>
                     </div>
                 </div>
 
                 <button class="priority-msg-btn" onclick="fakeMessageAlert()">
-                    <span>💬</span> Начать приватный чат (179₽)
+                    <span>💬</span> Начать приватный чат (199₽)
                     <div class="msg-badge">1</div>
                 </button>
 
@@ -722,17 +722,17 @@
                 <button id="btn-book" class="btn btn-primary" onclick="bookCurrentModel()">📅 Забронировать</button>
                 
                 <div id="intercept-container" style="display:none; width:100%; margin-top:5px;">
-                    <button class="btn btn-intercept" onclick="interceptBooking()">🚀 Перекупить бронь (+899₽)</button>
+                    <button class="btn btn-intercept" onclick="interceptBooking()">🚀 Перекупить бронь (+990₽)</button>
                     <div style="font-size:10px; color:#aaa; text-align:center; margin-top:5px;">Гарантия встречи. Вы будете в приоритете.</div>
                 </div>
 
                 <label class="anon-wrapper" style="margin-top: 10px; justify-content: flex-start;">
                     <input type="checkbox" class="anon-checkbox" id="anon-check-pack">
-                    <span class="anon-text">🛡 Включить полную анонимность (+44₽)</span>
+                    <span class="anon-text">🛡 Включить полную анонимность (+49₽)</span>
                 </label>
 
                 <button class="btn btn-buy-pack" onclick="buyPhotoPack()">
-                    <span style="font-size: 13px;">📸 Купить пак откровенных фото (319₽)</span>
+                    <span style="font-size: 13px;">📸 Купить пак откровенных фото (349₽)</span>
                 </button>
             </div>
         </div>
@@ -852,17 +852,17 @@
         }
 
         const modelsData = {
-            'anna': { name: "Анна", age: 23, height: 170, price: "4509₽ / час", discountPrice: "3609₽ / час", category: "blonde", status: "free", isTop: true, images: ["https://i.postimg.cc/Jnsw19KB/Photo-(87).jpg", "https://i.postimg.cc/Qxkzr8hh/Photo-(86).jpg", "https://i.postimg.cc/2SS0Rn0s/Photo-(63).jpg"], desc: "Утонченная брюнетка с отличным чувством юмора.", reviews: getChaoticReviews('intellectual') },
-            'elena': { name: "Елена", age: 25, height: 175, price: "6309₽ / час", category: "brunette", status: "busy", isTop: true, images: ["https://i.postimg.cc/Hsp2XQDf/photo-24-2025-10-24-20-01-42.jpg", "https://i.postimg.cc/W1zwfT4H/photo-67-2025-10-24-20-01-35.jpg", "https://i.postimg.cc/63rrGQHs/photo-24-2025-10-24-20-01-35.jpg"], desc: "Строгая блондинка модельной внешности.", reviews: getChaoticReviews('business') },
-            'viki': { name: "Вики", age: 20, height: 165, price: "5409₽ / час", category: "blonde", status: "free", isTop: false, images: ["https://i.postimg.cc/BQ6FJNGf/Photo-(118).jpg", "https://i.postimg.cc/3JcvNpKz/Photo-(64).jpg", "https://i.postimg.cc/VNy0B80j/Photo-(12).jpg"], desc: "Веселая, активная, люблю танцы!", reviews: getChaoticReviews('party') },
-            'sofi': { name: "Софи", age: 21, height: 172, price: "4959₽ / час", category: "blonde", status: "free", isTop: true, images: ["https://i.postimg.cc/wvqv0TqM/Photo-(40).jpg", "https://i.postimg.cc/g0Ndcyph/Photo-(214).jpg", "https://i.postimg.cc/sXLr7V1H/Photo-(220).jpg"], desc: "Нежная и романтичная натура.", reviews: getChaoticReviews('romantic') },
-            'maria': { name: "Мария", age: 24, height: 168, price: "4059₽ / час", discountPrice: "3249₽ / час", category: "brunette", status: "free", isTop: false, images: ["https://i.postimg.cc/CMf17tYd/Photo-(248).jpg", "https://i.postimg.cc/pXfdbFmb/Photo-(247).jpg", "https://i.postimg.cc/4N63k9YH/Photo-(284).jpg"], desc: "Страстная и нежная сучка.", reviews: getChaoticReviews('party') },
-            'kate': { name: "Кейт", age: 22, height: 176, price: "7209₽ / час", category: "blonde", status: "busy", isTop: true, images: ["https://i.postimg.cc/QMwDW8BG/1-457261996.jpg", "https://i.postimg.cc/yd8RWTSt/1-457262659.jpg", "https://i.postimg.cc/63bvZGr3/1-457262949.jpg"], desc: "Модель топ-уровня.", reviews: getChaoticReviews('business') },
-            'eva': { name: "Ева", age: 19, height: 164, price: "5409₽ / час", category: "brunette", status: "free", isTop: true, images: ["https://i.postimg.cc/QM4QQPDP/Photo-(23).jpg", "https://i.postimg.cc/KzCtVM1y/Photo-(29).jpg", "https://i.postimg.cc/SQz69DPy/Photo-(5).jpg"], desc: "Сочная леди с великолепными изгибами.", reviews: getChaoticReviews('romantic') },
-            'alice': { name: "Алиса", age: 23, height: 170, price: "4509₽ / час", category: "blonde", status: "free", isTop: false, images: ["https://i.postimg.cc/0NbMsNgG/Photo-(161).jpg", "https://i.postimg.cc/85v77nz6/Photo-(198).jpg", "https://i.postimg.cc/ZKbqmqpP/Photo-(343).jpg"], desc: "Спортивная и активная.", reviews: getChaoticReviews('party') },
-            'diana': { name: "Диана", age: 26, height: 178, price: "6759₽ / час", category: "brunette", status: "free", isTop: false, images: ["https://i.postimg.cc/zBNrkdkn/Photo-(47).jpg", "https://i.postimg.cc/QCnwvSpr/Photo-(294).jpg", "https://i.postimg.cc/L6wGTC9t/Photo-(37).jpg"], desc: "Высокая, статная брюнетка.", reviews: getChaoticReviews('business') },
-            'polina': { name: "Полина", age: 20, height: 169, price: "8109₽ / час", category: "blonde", status: "busy", isTop: true, images: ["https://i.postimg.cc/SKqTTHwk/261888104-457293776.jpg", "https://i.postimg.cc/rw2QsvF2/261888104-457293774.jpg", "https://i.postimg.cc/8C2hXvFv/261888104-457291634.jpg"], desc: "Эксклюзивная внешность и манеры.", reviews: getChaoticReviews('business') },
-            'nika': { name: "Ника", age: 22, height: 166, price: "4509₽ / час", discountPrice: "3609₽ / час", category: "brunette", status: "free", isTop: false, images: ["https://i.postimg.cc/3RjDLc5z/263490721-457263040.jpg", "https://i.postimg.cc/J0PH8Hnm/263490721-457262855.jpg", "https://i.postimg.cc/Kvp3sTwz/263490721-457262767.jpg"], desc: "Творческая личность.", reviews: getChaoticReviews('romantic') }
+            'anna': { name: "Анна", age: 23, height: 170, price: "5000₽ / час", discountPrice: "4000₽ / час", category: "blonde", status: "free", isTop: true, images: ["https://i.postimg.cc/Jnsw19KB/Photo-(87).jpg", "https://i.postimg.cc/Qxkzr8hh/Photo-(86).jpg", "https://i.postimg.cc/2SS0Rn0s/Photo-(63).jpg"], desc: "Утонченная брюнетка с отличным чувством юмора.", reviews: getChaoticReviews('intellectual') },
+            'elena': { name: "Елена", age: 25, height: 175, price: "7000₽ / час", category: "brunette", status: "busy", isTop: true, images: ["https://i.postimg.cc/Hsp2XQDf/photo-24-2025-10-24-20-01-42.jpg", "https://i.postimg.cc/W1zwfT4H/photo-67-2025-10-24-20-01-35.jpg", "https://i.postimg.cc/63rrGQHs/photo-24-2025-10-24-20-01-35.jpg"], desc: "Строгая блондинка модельной внешности.", reviews: getChaoticReviews('business') },
+            'viki': { name: "Вики", age: 20, height: 165, price: "6000₽ / час", category: "blonde", status: "free", isTop: false, images: ["https://i.postimg.cc/BQ6FJNGf/Photo-(118).jpg", "https://i.postimg.cc/3JcvNpKz/Photo-(64).jpg", "https://i.postimg.cc/VNy0B80j/Photo-(12).jpg"], desc: "Веселая, активная, люблю танцы!", reviews: getChaoticReviews('party') },
+            'sofi': { name: "Софи", age: 21, height: 172, price: "5500₽ / час", category: "blonde", status: "free", isTop: true, images: ["https://i.postimg.cc/wvqv0TqM/Photo-(40).jpg", "https://i.postimg.cc/g0Ndcyph/Photo-(214).jpg", "https://i.postimg.cc/sXLr7V1H/Photo-(220).jpg"], desc: "Нежная и романтичная натура.", reviews: getChaoticReviews('romantic') },
+            'maria': { name: "Мария", age: 24, height: 168, price: "4500₽ / час", discountPrice: "3600₽ / час", category: "brunette", status: "free", isTop: false, images: ["https://i.postimg.cc/CMf17tYd/Photo-(248).jpg", "https://i.postimg.cc/pXfdbFmb/Photo-(247).jpg", "https://i.postimg.cc/4N63k9YH/Photo-(284).jpg"], desc: "Страстная и нежная сучка.", reviews: getChaoticReviews('party') },
+            'kate': { name: "Кейт", age: 22, height: 176, price: "8000₽ / час", category: "blonde", status: "busy", isTop: true, images: ["https://i.postimg.cc/QMwDW8BG/1-457261996.jpg", "https://i.postimg.cc/yd8RWTSt/1-457262659.jpg", "https://i.postimg.cc/63bvZGr3/1-457262949.jpg"], desc: "Модель топ-уровня.", reviews: getChaoticReviews('business') },
+            'eva': { name: "Ева", age: 19, height: 164, price: "6000₽ / час", category: "brunette", status: "free", isTop: true, images: ["https://i.postimg.cc/QM4QQPDP/Photo-(23).jpg", "https://i.postimg.cc/KzCtVM1y/Photo-(29).jpg", "https://i.postimg.cc/SQz69DPy/Photo-(5).jpg"], desc: "Сочная леди с великолепными изгибами.", reviews: getChaoticReviews('romantic') },
+            'alice': { name: "Алиса", age: 23, height: 170, price: "5000₽ / час", category: "blonde", status: "free", isTop: false, images: ["https://i.postimg.cc/0NbMsNgG/Photo-(161).jpg", "https://i.postimg.cc/85v77nz6/Photo-(198).jpg", "https://i.postimg.cc/ZKbqmqpP/Photo-(343).jpg"], desc: "Спортивная и активная.", reviews: getChaoticReviews('party') },
+            'diana': { name: "Диана", age: 26, height: 178, price: "7500₽ / час", category: "brunette", status: "free", isTop: false, images: ["https://i.postimg.cc/zBNrkdkn/Photo-(47).jpg", "https://i.postimg.cc/QCnwvSpr/Photo-(294).jpg", "https://i.postimg.cc/L6wGTC9t/Photo-(37).jpg"], desc: "Высокая, статная брюнетка.", reviews: getChaoticReviews('business') },
+            'polina': { name: "Полина", age: 20, height: 169, price: "9000₽ / час", category: "blonde", status: "busy", isTop: true, images: ["https://i.postimg.cc/SKqTTHwk/261888104-457293776.jpg", "https://i.postimg.cc/rw2QsvF2/261888104-457293774.jpg", "https://i.postimg.cc/8C2hXvFv/261888104-457291634.jpg"], desc: "Эксклюзивная внешность и манеры.", reviews: getChaoticReviews('business') },
+            'nika': { name: "Ника", age: 22, height: 166, price: "5000₽ / час", discountPrice: "4000₽ / час", category: "brunette", status: "free", isTop: false, images: ["https://i.postimg.cc/3RjDLc5z/263490721-457263040.jpg", "https://i.postimg.cc/J0PH8Hnm/263490721-457262855.jpg", "https://i.postimg.cc/Kvp3sTwz/263490721-457262767.jpg"], desc: "Творческая личность.", reviews: getChaoticReviews('romantic') }
         };
 
         // --- REAL TIME STATUS LOGIC ---
@@ -1150,7 +1150,7 @@
                 title: `Сообщение от ${data.name}`,
                 message: `У вас 1 новое сообщение. Оплатите доступ к приватному чату, чтобы прочитать.`,
                 buttons: [
-                    {type: 'default', text: 'Оплатить 179₽', id: 'pay_msg'},
+                    {type: 'default', text: 'Оплатить 199₽', id: 'pay_msg'},
                     {type: 'cancel'}
                 ]
             }, function(btnId) {
@@ -1259,7 +1259,7 @@
                 // Кнопка брони неактивна (или переводит в лист ожидания), но появляется кнопка перехвата
                 interceptContainer.style.display = 'block'; 
             } else {
-               btnBook.innerText = '📅 Забронировать (359₽)'; // <-- Изменили текст тут
+               btnBook.innerText = '📅 Забронировать (399₽)'; // <-- Изменили текст тут
                btnBook.className = 'btn btn-primary';
                btnBook.onclick = bookCurrentModel; 
                interceptContainer.style.display = 'none'; 
